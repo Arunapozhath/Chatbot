@@ -1,0 +1,49 @@
+# ── Sensitive config (copy config.example.py → config.py and fill your values)
+config.py
+
+# ── Client / knowledge-base data (add your own documents)
+data/HR_Module/
+data/Asset_Module/
+data/Cattlefeed/
+data/Milk_Marketing_Module/
+data/Procurement/
+data/Project_Module/
+data/S&D_Module/
+data/S&P_Module/
+data/Trust_Accounting/
+data/milkosoft_complete_knowledge_base.txt
+
+# ── Vector DB (rebuilt locally via: python ingest.py)
+chroma_db/
+
+# ── User feedback / conversation history
+feedback.db
+
+# ── Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environment
+venv/
+env/
+.venv/
+
+# ── IDE / OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# ── Logs
+*.log
+
+# ── dotenv (if you switch to .env later)
+.env
+.env.*
